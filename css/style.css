@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    padding: 15px;
+}
+body{
+
+    background-color:#3a4a58 ;
+}
+.container{
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+.disc-shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.disc-element img {
+    max-width: 100%;
+}
+
+.disc-element{
+    text-align: center;
+    line-height: 2.5rem;
+    flex-basis: calc(100% / 5 - 50px);
+    flex-grow: 0;
+    padding: 35px;
+
+    color: white;
+    background-color: #4e6b86;
+
+    height: 400px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
